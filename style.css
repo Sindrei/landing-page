@@ -83,14 +83,34 @@ body {
 
 .information-header {
     display: flex;
+    flex: 1;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     justify-content: center;
 }
 
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+}
+
+.image-wrapper p {
+    width: 160px;
+    text-align: center;
+}
 
 .size {
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto auto;
 }
