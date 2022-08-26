@@ -33,10 +33,6 @@ body {
     margin: 0;
 }
 
-.hero-container {
-    background-color: #1f2937;
-}
-
 .hero-content {
     display: flex;
     margin: 120px auto;
@@ -122,8 +118,9 @@ body {
 .author {
     text-align: right;
     font-weight: 900;
-    color: #1f2937;
     margin-right: 80px;
+    font-style: normal;
+    font-size: 30px;
 }
 
 .quote-block {
@@ -133,4 +130,8 @@ body {
 /* Background colors*/
 .quote-container {
     background-color: #e5e7eb;
+}
+
+.hero-container {
+    background-color: #1f2937;
 }
