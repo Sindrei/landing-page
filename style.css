@@ -127,6 +127,36 @@ body {
     margin: 100 px 0;
 }
 
+.action-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 120px;
+    margin: 80px 0;
+}
+
+.action-paragraph,
+.call-heading {
+    color: #f9faf8;
+    margin: 0;
+}
+
+#action-sign {
+    border-color: #f9faf8;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 80px;
+}
+
 /* Background colors*/
 .quote-container {
     background-color: #e5e7eb;
